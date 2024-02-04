@@ -55,7 +55,7 @@ class State(object):
 		state[3] = (bstate>>0)&1
 			
 		#4th column is who's turn it is
-		state[:,:,4] = (self.board.turn*1.0)
+		state[4] = (self.board.turn*1.0)
 
 		#print(state)
 
