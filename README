@@ -1,0 +1,40 @@
+ Zero Knowledge Chest Engine
+
+- Establish the search tree 
+* Use a neural net to prune the search tree 
+
+Definition: Value network 
+
+V- f(board)
+
+State of V:
+
+V = 1 White wins
+V = 0 Draw
+V = -1 Black wins
+
+State(Board):
+
+Pieces(2+7*2 -16):
+
+*Universal
+**Blank
+**Blank (En passant)  
+*Pieces
+
+**Pawn
+**Bishop
+**Knight
+**Rook
+**Rook(can castle)
+**Queen
+**King
+
+
+
+Extra state:
+* To move 
+*Castle available x4   
+
+8x8x4 -4 = 260 bits
+8x8x4 - 4 = 260 bits 
