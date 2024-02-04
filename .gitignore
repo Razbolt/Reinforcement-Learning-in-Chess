@@ -1,4 +1,3 @@
-
 #Ignore the data folder in the root directory
 data/
-proceed/
+processed/
